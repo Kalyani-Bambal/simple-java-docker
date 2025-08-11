@@ -28,5 +28,3 @@ COPY --from=build /app/Main.class .
 
 # Run the Java application
 CMD ["java", "Main"]
-
-# Dummy
